@@ -16,6 +16,7 @@ export const Cards = () => {
         key={index}>
             <div class="card" style={{width: "18rem;", 'margin':'8%'}} >
   <div class="card-body">
+    <img src={destileria.imagen}/>
     <h5 class="card-title">Nombre: {destileria.nombre}</h5>
     <p class="card-text">Tipo: {destileria.tipo}</p>
     <p class="card-text">Origen: {destileria.origen}</p>
