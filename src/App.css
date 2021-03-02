@@ -13,6 +13,17 @@
   }
 }
 
+body{
+  background-image: url("https://www.theglenlivet.com/es-ES/wp-content/uploads/sites/9/2016/03/Glossary-Full-Bleed.jpg");
+  background-attachment: fixed;
+  
+}
+
+.card{
+  opacity: 0.8;
+text-align: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
